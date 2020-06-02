@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Navigation bar */
+
+nav{
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+
+#left-navigation{
+    padding: 16px 32px;
+    /* background-color: red; */
+}
+
+#mid-navigation{
+    /* background-color: blue; */
+    position: relative;
+}
+
+#mid-navigation input{
+    width: 84%;
+    padding: 8px;
+    border: 1px solid silver;
+    border-radius: 3px 0px 0px 3px;
+    font-size: medium;
+    height: 100%;
+}
+
+#mid-navigation button{
+    position: absolute;
+    top: 0;
+    left: 84%;
+    padding: 9.5px 24px;
+    margin-left: -1px;
+    background-color: hsl(0, 0%, 97%);
+    color: hsl(0, 0%, 60%);
+    border: 1px solid silver;
+    border-radius: 0px 3px 3px 0px;
+}
+
+#right-navigation{
+    padding: 16px 32px;
+    justify-self: end;
+}
+
+.right-nav-item{
+    padding: 0px 16px;
+    color: hsl(0, 0%, 40%);
+}
+
+#logo{
+    /* margin: 0px 24px; */
+}
+
+/* Generic classes */
+.inline{
+    display: inline;
+}
+
+.grid-container{
+    display: grid;
+}
+
+.flex{
+    display: flex;
+}

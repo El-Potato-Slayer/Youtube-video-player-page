@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <div id="logo">
-            <img src="/images/logo.png" width="80px" alt="Youtube-logo">
+    <nav class="grid-container">
+        
+        <div id="left-navigation">
+            <!-- <i id="menu-btn" class="fa fa-bars"></i> -->
+            <img id="logo" src="/images/logo.png" width="80px" alt="Youtube-logo">
         </div>
 
-        <div id="search-bar">
+        <div id="mid-navigation">
             <input type="text" placeholder="Search">
             <button><i class="fa fa-search"></i></button>
         </div>
 
-        <div id="personal-navigation">
-            <i class="fa fa-video-camera"></i>
-            <i class="fa fa-th"></i>
-            <i class="fa fa-bell"></i>
+        <div id="right-navigation">
+            <i class="fa fa-video-camera fa-lg right-nav-item"></i>
+            <i class="fa fa-th fa-lg right-nav-item"></i>
+            <i class="fa fa-bell fa-lg right-nav-item"></i>
         </div>
         
     </nav>
