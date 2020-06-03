@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
 
 /* Navigation bar */
 
@@ -52,6 +55,75 @@ nav{
 }
 
 
+/* Video section */
+
+#main-container{
+    grid-template-columns: 2fr 1fr;
+    background-color: hsl(0, 0%, 98%);
+    padding: 16px 36px;
+}
+
+#video-section{
+
+    /* width: 854px; */
+}
+
+#video{
+    border: none;
+}
+
+#video-title{
+    font-weight: 300;
+    padding: 24px 0px 16px 0px;
+}
+
+#video-info{
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    color: gray;
+    padding-bottom: 8px;
+}
+
+#video-icons{
+    justify-self: end;
+}
+
+.video-icon{
+    padding: 0px 16px 8px 16px;
+}
+
+.video-icon-desc{
+    padding: 0px 0px 0px 8px;
+    font-size: 0.9rem;
+}
+
+#vid-info-separator{
+    border: none;
+    height: 1px;
+    background-color: hsl(0, 0%, 90%);
+}
+
+#uploader-info{
+    padding: 16px 0px;
+    grid-template-columns: 0.5fr 6fr 1fr;
+    align-items: center;
+}
+
+#uploader-avatar{
+    border-radius: 50%;
+    height: 100%;
+}
+
+#uploader-info button{
+    background-color: #cc181e;
+    color: hsl(0, 0%, 95%);
+    padding: 10px 0px;
+    border-radius: 1px;
+    border: none;
+    letter-spacing: 0.05rem;
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Generic classes */
 
 .inline{
@@ -65,3 +137,4 @@ nav{
 .flex{
     display: flex;
 }
+

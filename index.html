@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet"> 
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet"> -->
     <title>Document</title>
 </head>
 <body>
@@ -27,35 +29,39 @@
         
     </nav>
 
-    <main>
+    <main id="main-container" class="grid-container">
         <section id="video-section">
-            <iframe src="https://www.youtube.com/embed/oiKj0Z_Xnjc" width="854" height="480"></iframe>
+            <iframe id="video" src="https://www.youtube.com/embed/oiKj0Z_Xnjc" width="854" height="480"></iframe>
 
-            <h2>Stromae - Papaoutai</h2>
+            <h3 id="video-title">Stromae - Papaoutai</h3>
 
-            <div id="video-info">
+            <div id="video-info" class="grid-container">
                 <span>
-                    704,088,872 views
+                    704,088,872 views &#8226; Jun 6, 2013
                 </span>
-                <ul id="video-date">
-                    <li>Jun 6, 2013</li>
-                </ul>
-                <i class="fa fa-thumbs-up">3.8M</i>
-                <i class="fa fa-thumbs-down">1.83K</i>
-                <i class="fa fa-share">Share</i>
+                <div id="video-icons">
+                    <i class="fa fa-thumbs-up fa-lg video-icon"><span class="video-icon-desc">3.8M</span></i>
+                    <i class="fa fa-thumbs-down fa-lg video-icon"><span class="video-icon-desc">183K</span></i>
+                    <i class="fa fa-share fa-lg video-icon"><span class="video-icon-desc">Share</span></i>
+                </div>
             </div>
 
-            <hr>
+            <hr id="vid-info-separator">
 
-            <div id="uploader-info">
-                <img src="https://yt3.ggpht.com/UrmV6Bv7VBWF2bLl-ADZEIZDCZSXcZDkP-U_QQPbxCbuAhwwTBDkGBTM5pdQEEVhgnPwBIvBgw=s48-c-k-c0xffffffff-no-nd-rj" alt="">
-                <p>Stromae</p>
-                <span>4.43M subscribers</span>
-                <button>Subscribe</button>
+            <div id="uploader-info" class="grid-container">
+                <img id="uploader-avatar" src="https://yt3.ggpht.com/UrmV6Bv7VBWF2bLl-ADZEIZDCZSXcZDkP-U_QQPbxCbuAhwwTBDkGBTM5pdQEEVhgnPwBIvBgw=s48-c-k-c0xffffffff-no-nd-rj" alt="">
+                <div>
+                    <p>Stromae</p>
+                    <span>4.43M subscribers</span>
+                </div>
+                <button>SUBSCRIBE</button>
             </div>
 
         </section>
 
+        <section>
+            section-2
+        </section>
         
     </main>
 </body>
