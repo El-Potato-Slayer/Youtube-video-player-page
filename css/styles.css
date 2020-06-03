@@ -124,6 +124,23 @@ nav{
     font-family: 'Roboto', sans-serif;
 }
 
+/* Recommend Section */
+
+#recommend-section{
+    padding-left:24px;
+}
+
+.recommend-box{
+    padding-top: 16px;
+    margin-bottom: -8px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.recommend-detail{
+    color: gray;
+    font-size: small;
+}
+
 /* Generic classes */
 
 .inline{
