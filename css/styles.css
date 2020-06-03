@@ -5,7 +5,6 @@
 }
 
 
-
 /* Navigation bar */
 
 nav{
@@ -13,14 +12,11 @@ nav{
     align-items: center;
 }
 
-
 #left-navigation{
     padding: 16px 32px;
-    /* background-color: red; */
 }
 
 #mid-navigation{
-    /* background-color: blue; */
     position: relative;
 }
 
@@ -55,11 +51,9 @@ nav{
     color: hsl(0, 0%, 40%);
 }
 
-#logo{
-    /* margin: 0px 24px; */
-}
 
 /* Generic classes */
+
 .inline{
     display: inline;
 }
