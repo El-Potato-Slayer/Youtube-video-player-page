@@ -63,16 +63,11 @@ nav{
     padding: 16px 36px;
 }
 
-#video-section{
-
-    /* width: 854px; */
-}
-
 #video{
     border: none;
 }
 
-#video-title{
+#video-section h3{
     font-weight: 300;
     padding: 24px 0px 16px 0px;
 }
@@ -97,7 +92,7 @@ nav{
     font-size: 0.9rem;
 }
 
-#vid-info-separator{
+#video-section hr{
     border: none;
     height: 1px;
     background-color: hsl(0, 0%, 90%);
@@ -143,15 +138,7 @@ nav{
 
 /* Generic classes */
 
-.inline{
-    display: inline;
-}
-
 .grid-container{
     display: grid;
-}
-
-.flex{
-    display: flex;
 }
 
