@@ -12,7 +12,12 @@ body{
 
 nav{
     grid-template-columns: 1fr 2fr 1fr;
-    align-items: center;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 56px;
+    background-color: #ffffff;
 }
 
 #left-navigation{
@@ -21,22 +26,19 @@ nav{
 
 #mid-navigation{
     position: relative;
+    align-self: center;
 }
 
 #mid-navigation input{
-    width: 84%;
-    padding: 8px;
+    width: 85%;
+    padding: 5px 10px;
     border: 1px solid silver;
     border-radius: 3px 0px 0px 3px;
     font-size: medium;
-    height: 100%;
 }
 
 #mid-navigation button{
-    position: absolute;
-    top: 0;
-    left: 84%;
-    padding: 9.5px 24px;
+    width: 10%;
     margin-left: -1px;
     background-color: hsl(0, 0%, 97%);
     color: hsl(0, 0%, 60%);
@@ -54,14 +56,17 @@ nav{
     color: hsl(0, 0%, 40%);
 }
 
+/* Main container */
+#main-container{
+    margin-top: 56px;
+    grid-template-columns: 2fr 1fr;
+    background-color: hsl(0, 0%, 98%);
+    padding: 24px 36px;
+}
+
 
 /* Video section */
 
-#main-container{
-    grid-template-columns: 2fr 1fr;
-    background-color: hsl(0, 0%, 98%);
-    padding: 16px 36px;
-}
 
 #video{
     border: none;
@@ -69,7 +74,7 @@ nav{
 
 #video-section h3{
     font-weight: 300;
-    padding: 24px 0px 16px 0px;
+    padding: 32px 0px 8px 0px;
 }
 
 #video-info{
@@ -119,6 +124,11 @@ nav{
     font-family: 'Roboto', sans-serif;
 }
 
+#subscriber{
+    color: gray;
+    font-size: small;
+}
+
 /* Recommend Section */
 
 #recommend-section{
@@ -131,10 +141,6 @@ nav{
     grid-template-columns: 1fr 1fr;
 }
 
-.recommend-detail{
-    color: gray;
-    font-size: small;
-}
 
 /* Generic classes */
 
@@ -142,3 +148,18 @@ nav{
     display: grid;
 }
 
+.flex{
+    display: flex;
+}
+
+.gray{
+    color: gray;
+}
+
+.small{
+    font-size: small;
+}
+
+.small-medium{
+    font-size: 0.9rem;
+}
