@@ -22,6 +22,7 @@ nav{
 
 #left-navigation{
     padding: 16px 32px;
+    align-items: center;
 }
 
 #mid-navigation{
@@ -29,7 +30,7 @@ nav{
     align-self: center;
 }
 
-#mid-navigation input{
+#searchbar{
     width: 85%;
     padding: 5px 10px;
     border: 1px solid silver;
@@ -37,7 +38,11 @@ nav{
     font-size: medium;
 }
 
-#mid-navigation button{
+#searchbar:focus{
+    border: 2px solid #4885ed;
+}
+
+#searchbutton{
     width: 10%;
     margin-left: -1px;
     background-color: hsl(0, 0%, 97%);
@@ -46,15 +51,16 @@ nav{
     border-radius: 0px 3px 3px 0px;
 }
 
+#searchbutton:hover{
+    color: hsl(0, 0%, 40%);
+    background-color: hsl(0, 0%, 80%);
+}
+
 #right-navigation{
     padding: 16px 32px;
     justify-self: end;
 }
 
-.right-nav-item{
-    padding: 0px 16px;
-    color: hsl(0, 0%, 40%);
-}
 
 /* Main container */
 #main-container{
@@ -162,4 +168,16 @@ nav{
 
 .small-medium{
     font-size: 0.9rem;
+}
+
+.pd-right-24{
+    padding-right: 24px;
+}
+
+.pdx-16{
+    padding: 0px 16px;
+}
+
+.dark-gray{
+    color: hsl(0, 0%, 40%);
 }

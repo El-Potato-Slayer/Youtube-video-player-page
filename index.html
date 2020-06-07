@@ -10,30 +10,27 @@
 </head>
 <body>
     <nav class="grid-container">
-        
-        <div id="left-navigation">
+        <div id="left-navigation" class="flex">
+            <i class="fa fa-bars fa-lg pd-right-24"></i>
             <img id="logo" src="/images/logo.png" width="80" alt="Youtube-logo">
         </div>
-
         <div id="mid-navigation" class="flex">
-            <input type="text" placeholder="Search">
-            <button><i class="fa fa-search"></i></button>
+            <input id="searchbar" type="text" placeholder="Search">
+            <button id="searchbutton"><i class="fa fa-search"></i></button>
         </div>
-
         <div id="right-navigation">
-            <i class="fa fa-video-camera fa-lg right-nav-item"></i>
-            <i class="fa fa-th fa-lg right-nav-item"></i>
-            <i class="fa fa-bell fa-lg right-nav-item"></i>
+            <i class="fa fa-video-camera fa-lg pdx-16 dark-gray"></i>
+            <i class="fa fa-th fa-lg pdx-16 dark-gray"></i>
+            <i class="fa fa-bell fa-lg pdx-16 dark-gray"></i>
+            <i class="fa fa-user fa-lg pdx-16 dark-gray"></i>
         </div>
-        
     </nav>
-
+    
     <main id="main-container" class="grid-container">
         <section id="video-section">
             <iframe id="video" src="https://www.youtube.com/embed/oiKj0Z_Xnjc" width="854" height="480"></iframe>
-
+            
             <h3>Stromae - Papaoutai</h3>
-
             <div id="video-info" class="grid-container">
                 <span class="small-medium">
                     704,088,872 views &#8226; Jun 6, 2013
@@ -44,9 +41,7 @@
                     <i class="fa fa-share fa-lg video-icon"><span class="video-icon-desc">Share</span></i>
                 </div>
             </div>
-
             <hr>
-
             <div id="uploader-info" class="grid-container">
                 <img id="uploader-avatar" src="https://yt3.ggpht.com/UrmV6Bv7VBWF2bLl-ADZEIZDCZSXcZDkP-U_QQPbxCbuAhwwTBDkGBTM5pdQEEVhgnPwBIvBgw=s48-c-k-c0xffffffff-no-nd-rj" alt="uploader-avatar">
                 <div>
@@ -55,7 +50,6 @@
                 </div>
                 <button>SUBSCRIBE</button>
             </div>
-
         </section>
 
         <section id="recommend-section">
@@ -75,9 +69,9 @@
                 <div>
                     <span>Deadmau5 - Unspecial Effects</span>
                     <br>
-                    <span class="recommend-detail">mau5trap</span>
+                    <span class="gray small">mau5trap</span>
                     <br>
-                    <span class="recommend-detail">1.2M views &#8226; 8 years ago</span>
+                    <span class="gray small">1.2M views &#8226; 8 years ago</span>
                 </div>
             </div>
             <div class="recommend-box grid-container">
@@ -85,9 +79,9 @@
                 <div>
                     <span>Deadmau5 - Strobe</span>
                     <br>
-                    <span class="recommend-detail">mau5trap</span>
+                    <span class="gray small">mau5trap</span>
                     <br>
-                    <span class="recommend-detail">1.7M views &#8226; 8 years ago</span>
+                    <span class="gray small">1.7M views &#8226; 8 years ago</span>
                 </div>
             </div>
             <div class="recommend-box grid-container">
@@ -95,9 +89,9 @@
                 <div>
                     <span>How to properly turn off a computer</span>
                     <br>
-                    <span class="recommend-detail">Computer hacks</span>
+                    <span class="gray small">Computer hacks</span>
                     <br>
-                    <span class="recommend-detail">2.8B views &#8226; 4 years ago</span>
+                    <span class="gray small">2.8B views &#8226; 4 years ago</span>
                 </div>
             </div>
             <div class="recommend-box grid-container">
@@ -105,9 +99,9 @@
                 <div>
                     <span>Why I look down upon apple users</span>
                     <br>
-                    <span class="recommend-detail">The judge</span>
+                    <span class="gray small">The judge</span>
                     <br>
-                    <span class="recommend-detail">5.6M views &#8226; 1 years ago</span>
+                    <span class="gray small">5.6M views &#8226; 1 years ago</span>
                 </div>
             </div>
         </section>
