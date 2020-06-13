@@ -1,4 +1,4 @@
 ---
 linters:
-    csslint:
-        ignore: 'box-model,ids'
+    stylelint:
+        config: 'stylelintrc.json'
