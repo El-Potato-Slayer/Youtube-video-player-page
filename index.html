@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <nav class="grid-container">
+        <div id="left-navigation" class="flex">
+            <i class="fa fa-bars fa-lg pd-right-24"></i>
+            <img id="logo" src="/images/logo.png" width="80" alt="Youtube-logo">
+        </div>
+        <div id="mid-navigation" class="flex">
+            <input id="searchbar" type="text" placeholder="Search">
+            <button id="searchbutton"><i class="fa fa-search"></i></button>
+        </div>
+        <div id="right-navigation">
+            <i class="fa fa-video-camera fa-lg pdx-16 dark-gray"></i>
+            <i class="fa fa-th fa-lg pdx-16 dark-gray"></i>
+            <i class="fa fa-bell fa-lg pdx-16 dark-gray"></i>
+            <i class="fa fa-user fa-lg pdx-16 dark-gray"></i>
+        </div>
+    </nav>
+    
+    <main id="main-container" class="grid-container">
+        <section id="video-section">
+            <iframe id="video" src="https://www.youtube.com/embed/oiKj0Z_Xnjc" width="854" height="480"></iframe>
+            
+            <h3>Stromae - Papaoutai</h3>
+            <div id="video-info" class="grid-container">
+                <span class="small-medium">
+                    704,088,872 views &#8226; Jun 6, 2013
+                </span>
+                <div id="video-icons">
+                    <i class="fa fa-thumbs-up fa-lg video-icon"><span class="video-icon-desc">3.8M</span></i>
+                    <i class="fa fa-thumbs-down fa-lg video-icon"><span class="video-icon-desc">183K</span></i>
+                    <i class="fa fa-share fa-lg video-icon"><span class="video-icon-desc">Share</span></i>
+                </div>
+            </div>
+            <hr>
+            <div id="uploader-info" class="grid-container">
+                <img id="uploader-avatar" src="https://yt3.ggpht.com/UrmV6Bv7VBWF2bLl-ADZEIZDCZSXcZDkP-U_QQPbxCbuAhwwTBDkGBTM5pdQEEVhgnPwBIvBgw=s48-c-k-c0xffffffff-no-nd-rj" alt="uploader-avatar">
+                <div>
+                    <p>Stromae</p>
+                    <span class="gray small">4.43M subscribers</span>
+                </div>
+                <button>SUBSCRIBE</button>
+            </div>
+        </section>
+
+        <section id="recommend-section">
+            <h4>Recommended</h4>
+            <div class="recommend-box grid-container">
+                <img src="https://i.ytimg.com/vi/9yuGtwUy_Cs/hqdefault.jpg" width="180" height="107" alt="video-thumbnail">
+                <div>
+                    <span>Volumes - Via [Remastered]</span>
+                    <br>
+                    <span class="gray small">Hunter of Bands</span>
+                    <br>
+                    <span class="gray small">6.6K views &#8226; 6 months ago</span>
+                </div>
+            </div>
+            <div class="recommend-box grid-container">
+                <img src="https://www.rollingstone.com/wp-content/uploads/2018/06/rs-deadmau5-01-9469f02f-f4ac-4a45-afb0-651c0b008ec9.jpg?resize=1800,1200&w=1800" width="180" height="107" alt="video-thumbnail">
+                <div>
+                    <span>Deadmau5 - Unspecial Effects</span>
+                    <br>
+                    <span class="gray small">mau5trap</span>
+                    <br>
+                    <span class="gray small">1.2M views &#8226; 8 years ago</span>
+                </div>
+            </div>
+            <div class="recommend-box grid-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQGkmwxcIpLrBBEAciPXq9_d20UEJqSvp7CiDP9K3QrpaAaJLX2&usqp=CAU" width="180" height="107" alt="video-thumbnail">
+                <div>
+                    <span>Deadmau5 - Strobe</span>
+                    <br>
+                    <span class="gray small">mau5trap</span>
+                    <br>
+                    <span class="gray small">1.7M views &#8226; 8 years ago</span>
+                </div>
+            </div>
+            <div class="recommend-box grid-container">
+                <img src="https://thumbs.dreamstime.com/z/smashing-laptop-hammer-4918731.jpg" width="180" height="107" alt="video-thumbnail">
+                <div>
+                    <span>How to properly turn off a computer</span>
+                    <br>
+                    <span class="gray small">Computer hacks</span>
+                    <br>
+                    <span class="gray small">2.8B views &#8226; 4 years ago</span>
+                </div>
+            </div>
+            <div class="recommend-box grid-container">
+                <img src="https://www.macworld.co.uk/cmsdata/features/3691861/iphone-v-android-market-share-main_thumb800.png" width="180" height="107" alt="video-thumbnail">
+                <div>
+                    <span>Why I look down upon apple users</span>
+                    <br>
+                    <span class="gray small">The judge</span>
+                    <br>
+                    <span class="gray small">5.6M views &#8226; 1 years ago</span>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+</body>
+</html>
